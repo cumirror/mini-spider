@@ -2,7 +2,7 @@
     在调研过程中，经常需要对一些网站进行定向抓取。由于go包含各种强大的库，使用go做定向抓取比较简单。请使用go开发一个迷你定向抓取器mini_spider，实现对种子链接的抓取，并把URL长相符合特定pattern的网页保存到磁盘上。
 
 [程序运行]：
-   ./mini_spider -c ../conf -l ../log
+   ./mini_spider -c ../conf/spider.conf -l ./log
 
 [配置文件spider.conf]：
     [spider]
